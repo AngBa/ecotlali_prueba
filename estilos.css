@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+
+.logo {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+nav {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: green;
+    position: relative;
+}
+
+nav > ul li {
+    display: table-cell;
+}
+
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+    display: block;
+}
+
+nav > ul > li > ul {
+    display: none;
+}
+
+nav > ul li a {
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+    background: #5da5a2;
+}
+
+nav > ul > li > a span {
+    background: #174459;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -65px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+    display: block;
+    line-height: 60px;
+}
+
+nav > ul > li > a:hover > span {
+    top: 0;
+
+}
+
+/*Colores-Menu*/
+nav ul li a .primero {
+    background: #0e5061;
+}
+
+nav ul li a .segundo {
+    background: #5da5a2;
+}
+
+nav ul li a .tercero {
+    background: #2ECC71;
+}
+
+nav ul li a .cuarto {
+    background: #174459;
+}
+
+nav ul li a .quinto {
+    background: #37a4d9;
+}
+/*Barra de Redes Sociales*/
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-youtube {
+    background: red;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .fa-at {
+    background: #F7DC6F;
+}
+
+
+.social ul li .fa-whatsapp {
+    background: #2ECC71;
+}
+
+
+.social ul li a:hover {
+    padding: 10px 30px;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+/*Body*/
+h2 {
+
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+
+}
+
+h3 {
+
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+body {
+    background: url(Imagenes/Logo.jpeg);    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+section {
+    flex: 50%;
+    padding: 50px;
+}
+
+p {
+    color: snow;
+    text-decoration-style: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.slides {
+    width: 100%;
+    padding: 0;
+}
+
+.slides img {
+    width: 100%;
+}
+
+.slidesjs-pagination {
+    background: green;
+    list-style: none;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li {
+    float: left;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    padding: 10px 20px;
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover {
+    background: green;
+}
+
+.slides .active {
+    background: white;
+}
+
+.slidesjs-navigation {
+    background: ;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+    overflow: hidden;
+}
+.container{
+    background-color: green;
+}
+
+article{
+    background-color: gray;
+}
+
